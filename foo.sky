@@ -1,0 +1,4 @@
+load("deployment.sky", "deployment")
+
+def main(ctx):
+    return [deployment("foo")]
